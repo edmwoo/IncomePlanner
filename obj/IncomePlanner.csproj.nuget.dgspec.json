@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Data\\Projects\\Xamarin\\XamarinAndroid\\IncomePlanner\\IncomePlanner.csproj": {}
+    "C:\\Data\\GitHub\\IncomePlanner\\IncomePlanner.csproj": {}
   },
   "projects": {
-    "C:\\Data\\Projects\\Xamarin\\XamarinAndroid\\IncomePlanner\\IncomePlanner.csproj": {
+    "C:\\Data\\GitHub\\IncomePlanner\\IncomePlanner.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Data\\Projects\\Xamarin\\XamarinAndroid\\IncomePlanner\\IncomePlanner.csproj",
+        "projectUniqueName": "C:\\Data\\GitHub\\IncomePlanner\\IncomePlanner.csproj",
         "projectName": "IncomePlanner",
-        "projectPath": "C:\\Data\\Projects\\Xamarin\\XamarinAndroid\\IncomePlanner\\IncomePlanner.csproj",
+        "projectPath": "C:\\Data\\GitHub\\IncomePlanner\\IncomePlanner.csproj",
         "packagesPath": "C:\\Users\\Ed\\.nuget\\packages\\",
-        "outputPath": "C:\\Data\\Projects\\Xamarin\\XamarinAndroid\\IncomePlanner\\obj\\",
+        "outputPath": "C:\\Data\\GitHub\\IncomePlanner\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [

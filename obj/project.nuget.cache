@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n7KzdlBRnqEFgOecP3WK5SmuBnDWqG6fI9QenGjsBUrUS+9MKn3CBg2VBNbp0k5q/zgXZ2PWkF3QzzIarzYX5A==",
+  "dgSpecHash": "N7h0OnDem1yGpTA0F64plWmAcsbcWGlLGvxqyJlHNi0+XnRbFGR9TYsfNETUSCoIiBrZnnWsdoAbdYllyUQrfQ==",
   "success": true,
-  "projectFilePath": "C:\\Data\\Projects\\Xamarin\\XamarinAndroid\\IncomePlanner\\IncomePlanner.csproj",
+  "projectFilePath": "C:\\Data\\GitHub\\IncomePlanner\\IncomePlanner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Ed\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.android.arch.core.common\\1.1.1.3\\xamarin.android.arch.core.common.1.1.1.3.nupkg.sha512",

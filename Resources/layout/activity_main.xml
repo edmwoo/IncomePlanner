@@ -7,78 +7,96 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-    <TextView
-        android:text="Input Values"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
-    <android.support.design.widget.TextInputLayout
+    <ScrollView
+        android:scrollbars="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="match_parent">
+    
+    
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        
+           <TextView
+                android:text="Input Values"
+                android:textSize="22sp"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
 
-    <EditText
-        android:id="@+id/editTextIncomePerHour"
-        android:hint="$ per hour"
-        android:inputType="numberDecimal"
-        android:imeOptions="actionNext"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-     </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editTextIncomePerHour"
+                android:hint="$ per hour"
+                android:inputType="numberDecimal"
+                android:imeOptions="actionNext"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+             </android.support.design.widget.TextInputLayout>
     
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <EditText
-        android:id="@+id/editTextWorkHourPerDay"
-        android:hint="Work Hours per day"
-        android:inputType="numberDecimal"
-        android:imeOptions="actionNext"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-     </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editTextWorkHourPerDay"
+                android:hint="Work Hours per day"
+                android:inputType="numberDecimal"
+                android:imeOptions="actionNext"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+             </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-    <EditText
-        android:id="@+id/editTextTaxRate"
-        android:hint="Tax Rate (%)"
-        android:inputType="numberDecimal"
-        android:imeOptions="actionNext"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-     </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <EditText
+                android:id="@+id/editTextTaxRate"
+                android:hint="Tax Rate (%)"
+                android:inputType="numberDecimal"
+                android:imeOptions="actionNext"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+             </android.support.design.widget.TextInputLayout>
 
-    <android.support.design.widget.TextInputLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/editTextSavingRate"
-        android:hint="Saving Rate (%)"
-        android:inputType="numberDecimal"
-        android:imeOptions="actionDone"
-        android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-     </android.support.design.widget.TextInputLayout>
+            <EditText
+                android:id="@+id/editTextSavingRate"
+                android:hint="Saving Rate (%)"
+                android:inputType="numberDecimal"
+                android:imeOptions="actionDone"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+             </android.support.design.widget.TextInputLayout>
 
-    <Button
-        android:id="@+id/buttonCalculate"
-        android:text="Calculate"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center_horizontal"
-        android:layout_width="300dp"
-        android:layout_height="50dp"/>
+            <Button
+                android:id="@+id/buttonCalculate"
+                android:text="Calculate"
+                android:layout_marginTop="30dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="50dp"/>
+            
+        
+        </LinearLayout>
+
+    </ScrollView>
+ 
 </LinearLayout>
